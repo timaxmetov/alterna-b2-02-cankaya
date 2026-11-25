@@ -81,3 +81,30 @@
 
 /* без анимации появления: текст глав виден сразу (анимации kit ставят inline-стили, поэтому !important) */
 .lx[data-design="b2-cankaya"] :is(.st-ch__k, .st-ch__h, .st-p, .st-b, .st-note, .st-quirk, .st-choice, .st-ch__n, .st-toc__l li) { opacity: 1 !important; transform: none !important; }
+
+/* ---------- дополнения Анкары: доступность, самопроверка, сцена ---------- */
+
+/* переход к истории с клавиатуры: виден только в фокусе */
+.lx[data-design="b2-cankaya"] .dy-skip { position: absolute; left: 12px; top: -60px; z-index: 50; padding: 10px 16px; border-radius: 10px; background: var(--b1-accent); color: #fff; font-weight: 700; text-decoration: none; }
+.lx[data-design="b2-cankaya"] .dy-skip:focus { top: 12px; }
+
+/* видимый фокус для всех кнопок и ссылок урока */
+.lx[data-design="b2-cankaya"] :is(a, button, input, [tabindex]):focus-visible { outline: 3px solid var(--b1-accent); outline-offset: 2px; border-radius: 8px; }
+
+/* зона нажатия у кликабельных слов и кнопки озвучки не меньше 44 px */
+.lx[data-design="b2-cankaya"] .st-w { position: relative; }
+.lx[data-design="b2-cankaya"] .st-w::after { content: ""; position: absolute; inset: -9px -2px; }
+.lx[data-design="b2-cankaya"] .ak-say__btn { min-width: 44px; min-height: 44px; }
+
+/* самопроверка в итоге: перевод прячется, строка открывается по нажатию */
+.lx[data-design="b2-cankaya"] .dy-selfcheck { order: 4; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 6px; color: var(--lx-muted); font-size: .92em; }
+.lx[data-design="b2-cankaya"] .dy-selfcheck .lx-btn { min-height: 44px; }
+.lx[data-design="b2-cankaya"] .is-hide-ru :is(.dy-goal__w, .st-words li) { cursor: pointer; }
+.lx[data-design="b2-cankaya"] .is-hide-ru :is(.dy-goal__w > span, .st-words li > span) { color: transparent; background: var(--lx-surf2); border-radius: 6px; transition: color .2s ease, background-color .2s ease; }
+.lx[data-design="b2-cankaya"] .is-hide-ru :is(.dy-goal__w, .st-words li).is-peek > span { color: var(--lx-muted); background: transparent; }
+@media (prefers-reduced-motion: reduce) { .lx[data-design="b2-cankaya"] .is-hide-ru :is(.dy-goal__w > span, .st-words li > span) { transition: none; } }
+
+/* культурный слой и разминка: спокойные подложки дня */
+.lx[data-design="b2-cankaya"] .dy-prep { margin: 0 0 4px; }
+.lx[data-design="b2-cankaya"] .dy-prep__chip { min-height: 40px; }
+.lx[data-design="b2-cankaya"] .dy-culture { box-shadow: none; border: 1px solid var(--lx-line); }
