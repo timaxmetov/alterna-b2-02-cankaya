@@ -1,0 +1,240 @@
+{
+  "topic": "d.b2.02",
+  "exercises": [
+    {
+      "id": "d.b2.02.ex1",
+      "lesson": 1,
+      "kind": "practice",
+      "skill": "situation",
+      "difficulty": 2,
+      "type": "gap_fill",
+      "instruction": "Закончи фразы из сегодняшних разговоров.",
+      "description": "Cümleleri tamamlayalım.",
+      "items": [
+        {
+          "id": "1",
+          "text": "Yarım ___ kapıdayım.",
+          "answers": [
+            [
+              "saate"
+            ]
+          ],
+          "explanation": "Yarım saate kapıdayım."
+        },
+        {
+          "id": "2",
+          "text": "Hattı pasaportunuzla kaydetmemiz ___.",
+          "answers": [
+            [
+              "gerekiyor"
+            ]
+          ],
+          "explanation": "Hattı pasaportunuzla kaydetmemiz gerekiyor."
+        },
+        {
+          "id": "3",
+          "text": "Paket ne kadar süre ___?",
+          "answers": [
+            [
+              "geçerli"
+            ]
+          ],
+          "explanation": "Paket ne kadar süre geçerli?"
+        },
+        {
+          "id": "4",
+          "text": "___ bir şey verebilir misiniz?",
+          "answers": [
+            [
+              "Reçetesiz"
+            ]
+          ],
+          "explanation": "Reçetesiz bir şey verebilir misiniz?"
+        },
+        {
+          "id": "5",
+          "text": "Otobüs her beş dakikada ___ geçiyor.",
+          "answers": [
+            [
+              "bir"
+            ]
+          ],
+          "explanation": "Otobüs her beş dakikada bir geçiyor."
+        }
+      ]
+    },
+    {
+      "id": "d.b2.02.ex2",
+      "lesson": 1,
+      "kind": "practice",
+      "skill": "situation",
+      "difficulty": 2,
+      "type": "custom",
+      "instruction": "Составь список дел на первую неделю в Анкаре и напиши его по-турецки: 4–5 пунктов, у каждого одно короткое предложение.",
+      "description": "Yazalım.",
+      "items": [
+        {
+          "id": "1",
+          "task": "Составь список дел на первую неделю в Анкаре и напиши его по-турецки: 4–5 пунктов, у каждого одно короткое предложение.",
+          "model": "1. Sucudan iki damacana su sipariş edeceğim. 2. Telefonuma internet paketi yükleteceğim. 3. Bakkaldan ekmek ve peynir alacağım. 4. Eczaneden boğaz pastili alacağım. 5. Kızılay'a giden otobüsün durağını bulacağım.",
+          "answer": "1. Sucudan iki damacana su sipariş edeceğim. 2. Telefonuma internet paketi yükleteceğim. 3. Bakkaldan ekmek ve peynir alacağım. 4. Eczaneden boğaz pastili alacağım. 5. Kızılay'a giden otobüsün durağını bulacağım.",
+          "explanation": "Можно так: 1. Sucudan iki damacana su sipariş edeceğim. 2. Telefonuma internet paketi yükleteceğim. 3. Bakkaldan ekmek ve peynir alacağım. 4. Eczaneden boğaz pastili alacağım. 5. Kızılay'a giden otobüsün durağını bulacağım."
+        }
+      ]
+    },
+    {
+      "id": "d.b2.02.ex3",
+      "lesson": 1,
+      "kind": "practice",
+      "skill": "situation",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "instruction": "Послушай и выбери перевод",
+      "description": "Dinleyelim",
+      "items": [
+        {
+          "id": "1",
+          "prompt": "Что ты слышишь?",
+          "say": "reçete",
+          "options": [
+            "Можете дать что-нибудь без рецепта?",
+            "рецепт",
+            "Можете написать, какую программу мне выбрать?",
+            "номер, линия связи"
+          ],
+          "answer": 1,
+          "explanation": "reçete — рецепт"
+        },
+        {
+          "id": "2",
+          "prompt": "Что ты слышишь?",
+          "say": "nöbetçi eczane",
+          "options": [
+            "стиральная машина",
+            "номер, линия связи",
+            "бутыль на 19 литров",
+            "дежурная аптека"
+          ],
+          "answer": 3,
+          "explanation": "nöbetçi eczane — дежурная аптека"
+        },
+        {
+          "id": "3",
+          "prompt": "Что ты слышишь?",
+          "say": "damacana",
+          "options": [
+            "Можете дать что-нибудь без рецепта?",
+            "бутыль на 19 литров",
+            "дежурная аптека",
+            "тарифный пакет"
+          ],
+          "answer": 1,
+          "explanation": "damacana — бутыль на 19 литров"
+        },
+        {
+          "id": "4",
+          "prompt": "Что ты слышишь?",
+          "say": "geçerli",
+          "options": [
+            "действующий",
+            "бутыль на 19 литров",
+            "остановка",
+            "Можете написать, какую программу мне выбрать?"
+          ],
+          "answer": 0,
+          "explanation": "geçerli — действующий"
+        },
+        {
+          "id": "5",
+          "prompt": "Что ты слышишь?",
+          "say": "hat",
+          "options": [
+            "номер, линия связи",
+            "бутыль на 19 литров",
+            "Ходит каждые пять минут.",
+            "пастилка"
+          ],
+          "answer": 0,
+          "explanation": "hat — номер, линия связи"
+        }
+      ]
+    },
+    {
+      "id": "d.b2.02.check1",
+      "lesson": 1,
+      "kind": "check",
+      "skill": "situation",
+      "type": "mixed",
+      "difficulty": 2,
+      "instruction": "Sınav — проверь себя",
+      "passPercent": 80,
+      "items": [
+        {
+          "id": "1",
+          "type": "multiple_choice",
+          "prompt": "«paket» — это…",
+          "options": [
+            "остановка",
+            "тарифный пакет",
+            "стиральная машина",
+            "Сколько действует пакет?"
+          ],
+          "answer": 1,
+          "explanation": "paket — тарифный пакет"
+        },
+        {
+          "id": "2",
+          "type": "multiple_choice",
+          "prompt": "«Reçetesiz bir şey verebilir misiniz?» — это…",
+          "options": [
+            "Можете дать что-нибудь без рецепта?",
+            "тарифный пакет",
+            "стиральная машина",
+            "пастилка"
+          ],
+          "answer": 0,
+          "explanation": "Reçetesiz bir şey verebilir misiniz? — Можете дать что-нибудь без рецепта?"
+        },
+        {
+          "id": "3",
+          "type": "multiple_choice",
+          "prompt": "«nöbetçi eczane» — это…",
+          "options": [
+            "дежурная аптека",
+            "тарифный пакет",
+            "действующий",
+            "пастилка"
+          ],
+          "answer": 0,
+          "explanation": "nöbetçi eczane — дежурная аптека"
+        },
+        {
+          "id": "4",
+          "type": "multiple_choice",
+          "prompt": "Как сказать по-турецки: «действующий»?",
+          "options": [
+            "çekinmek",
+            "Hangi programı seçmem gerektiğini yazabilir misiniz?",
+            "geçerli",
+            "Paket ne kadar süre geçerli?"
+          ],
+          "answer": 2,
+          "explanation": "geçerli — действующий"
+        },
+        {
+          "id": "5",
+          "type": "multiple_choice",
+          "prompt": "«Bir damacana su istiyorum.» — это…",
+          "options": [
+            "Мне одну бутыль воды.",
+            "номер, линия связи",
+            "тарифный пакет",
+            "Ходит каждые пять минут."
+          ],
+          "answer": 0,
+          "explanation": "Bir damacana su istiyorum. — Мне одну бутыль воды."
+        }
+      ]
+    }
+  ]
+}
