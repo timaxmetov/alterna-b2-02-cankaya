@@ -160,6 +160,68 @@
       ]
     },
     {
+      "id": "d.b2.02.ex4",
+      "lesson": 1,
+      "kind": "practice",
+      "skill": "situation",
+      "type": "custom",
+      "difficulty": 3,
+      "instruction": "Varış: Çankaya'da ilk saatler",
+      "description": "Чанкая",
+      "items": [
+        {
+          "id": "1",
+          "bot": {
+            "tr": "Var. Ama hattı pasaportunuzla kaydetmemiz gerekiyor.",
+            "ru": "Есть. Но нам нужно зарегистрировать номер на ваш паспорт."
+          },
+          "options": [
+            {
+              "tr": "Paket ne kadar süre geçerli?",
+              "ru": "Сколько действует пакет?"
+            },
+            {
+              "tr": "Paket ne kadar geçti?",
+              "ru": "Сколько прошёл пакет?",
+              "hint": "Продавец не понимает: пакет никуда не ходил. Geçmek — проходить, а срок действия — geçerli olmak: ne kadar süre geçerli?"
+            }
+          ],
+          "answer": 0,
+          "reply": null,
+          "explanation": "Подходит: Paket ne kadar süre geçerli? — Сколько действует пакет?"
+        },
+        {
+          "id": "2",
+          "bot": {
+            "tr": "Hoş geldin! Her şey yolunda mı? Bir ihtiyacın olursa çekinme.",
+            "ru": "С приездом! Всё в порядке? Если что-то нужно, не стесняйся."
+          },
+          "options": [
+            {
+              "tr": "Hangi programı seçmem gerektiğini yazabilir misiniz?",
+              "ru": "Можете написать, какую программу мне выбрать?"
+            },
+            {
+              "tr": "Hangi program beni seçer, yazar mısınız?",
+              "ru": "Какая программа меня выберет, напишете?",
+              "hint": "Несрин-ханым смеётся: программы никого не выбирают. Выбираешь ты: hangi programı seçmem gerektiğini."
+            }
+          ],
+          "answer": 0,
+          "reply": null,
+          "explanation": "Подходит: Hangi programı seçmem gerektiğini yazabilir misiniz? — Можете написать, какую программу мне выбрать?"
+        }
+      ],
+      "final": {
+        "tr": "En kolayı otobüs. Kuğulu Park durağından her beş dakikada bir geçiyor.",
+        "ru": "Проще всего автобусом. С остановки у парка Кугулу ходит каждые пять минут."
+      },
+      "character": {
+        "name": "Çankaya",
+        "role": "Чанкая"
+      }
+    },
+    {
       "id": "d.b2.02.check1",
       "lesson": 1,
       "kind": "check",
